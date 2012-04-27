@@ -24,12 +24,15 @@
 #pragma mark Application Lifecycle
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  [self saveKeyboardLayout];
-  [self setKeyboardLayout];
+  //[self saveKeyboardLayout];
+  //[self setKeyboardLayout];
 
   bluetooth = [[Bluetooth alloc] init];
   [bluetooth displayHostControllerInfo];
   [bluetooth displayPairedKeyboards];
+
+  event = [[Event alloc] init];
+  [event setup];
 }
 
 

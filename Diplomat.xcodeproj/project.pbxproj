@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71E6A1E15467BF2000F1CBB /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = D71E6A1D15467BF2000F1CBB /* Event.m */; };
 		D72BF3BC1541D293003ADEB8 /* Bluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = D72BF3BB1541D293003ADEB8 /* Bluetooth.m */; };
 		D7A4FE4414EE8F8E004A8D6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A4FE4314EE8F8E004A8D6C /* Cocoa.framework */; };
 		D7A4FE4E14EE8F8E004A8D6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A4FE4C14EE8F8E004A8D6C /* InfoPlist.strings */; };
@@ -19,7 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D72BF3BA1541D293003ADEB8 /* Bluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Bluetooth.h; sourceTree = "<group>"; };
+		D71E6A1C15467BF2000F1CBB /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		D71E6A1D15467BF2000F1CBB /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		D72BF3BA1541D293003ADEB8 /* Bluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bluetooth.h; sourceTree = "<group>"; };
 		D72BF3BB1541D293003ADEB8 /* Bluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bluetooth.m; sourceTree = "<group>"; };
 		D7A4FE3F14EE8F8E004A8D6C /* Diplomat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diplomat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A4FE4314EE8F8E004A8D6C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -99,6 +102,8 @@
 				D7A4FE4A14EE8F8E004A8D6C /* Supporting Files */,
 				D72BF3BA1541D293003ADEB8 /* Bluetooth.h */,
 				D72BF3BB1541D293003ADEB8 /* Bluetooth.m */,
+				D71E6A1C15467BF2000F1CBB /* Event.h */,
+				D71E6A1D15467BF2000F1CBB /* Event.m */,
 			);
 			path = Diplomat;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				D7A4FE5014EE8F8E004A8D6C /* main.m in Sources */,
 				D7A4FE5714EE8F8E004A8D6C /* AppDelegate.m in Sources */,
 				D72BF3BC1541D293003ADEB8 /* Bluetooth.m in Sources */,
+				D71E6A1E15467BF2000F1CBB /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

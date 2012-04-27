@@ -9,11 +9,13 @@
 #import <Cocoa/Cocoa.h>
 #import <Carbon/Carbon.h>
 #import "Bluetooth.h"
+#import "Event.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
   CFArrayRef sourceList;
   TISInputSourceRef originalKeyboardLayout;
   Bluetooth *bluetooth;
+  Event *event;
 }
 
 @property (assign) IBOutlet NSWindow *window;
